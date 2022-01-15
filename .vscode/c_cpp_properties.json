@@ -1,0 +1,9 @@
+{
+  "configurations": [
+    {
+      "name": "windows",
+      "defines": ["P_USE_WINDOWS"]
+    }
+  ],
+  "version": 4
+}
