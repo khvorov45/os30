@@ -3,6 +3,10 @@
     {
       "name": "windows",
       "defines": ["P_USE_WINDOWS"]
+    },
+    {
+      "name": "linux",
+      "defines": ["P_USE_POSIX", "_GNU_SOURCE"]
     }
   ],
   "version": 4

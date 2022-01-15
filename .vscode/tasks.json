@@ -7,6 +7,7 @@
       "label": "Build",
       "type": "process",
       "command": "${workspaceRoot}\\build.local.bat",
+      "linux": { "command": "./build.sh" },
       "group": {
         "kind": "build",
         "isDefault": true
