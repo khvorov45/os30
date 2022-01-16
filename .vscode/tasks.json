@@ -16,6 +16,7 @@
     {
       "label": "Execute",
       "type": "process",
+      "linux": { "command": "./run.sh" },
       "command": "${workspaceRoot}\\run.bat"
     }
   ]
